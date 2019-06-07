@@ -1,0 +1,159 @@
+
+
+Tue Jun  4 07:46:48 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.18.0-20-generic (#21~18.04.1-Ubuntu SMP Wed May 8 08:43:37 UTC 2019) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 256 GB / 238 GiB - CHS 31130 255 63, sector size=512 - ITHOO Tech, FW:0204
+Disk /dev/sdb - 62 GB / 57 GiB - CHS 59232 64 32, sector size=512 - SanDisk Ultra, FW:1.00
+
+Partition table type (auto): Intel
+Disk /dev/sdb - 62 GB / 57 GiB - SanDisk Ultra
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=63
+BAD_RS LBA=2048 1056
+FAT32 at 1/0/1
+Info: size boot_sector 121305088, partition 121305088
+FAT1 : 64-14911
+FAT2 : 14912-29759
+start_rootdir : 29760 root cluster : 2
+Data : 29760-121305087
+sectors : 121305088
+cluster_size : 64
+no_of_cluster : 1894927 (2 - 1894928)
+fat_length 14848 calculated 14805
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+ 1 P FAT32                    1   0  1 59231  63 32  121305088 [RCH_STICK2]
+     FAT32, blocksize=32768, 62 GB / 57 GiB
+
+FAT: cluster=2(0x2), pos=31808
+Directory /
+       3 drwxr-xr-x     0      0         0  2-Jun-2019 20:25 A3 Foto-Drucken
+       5 drwxr-xr-x     0      0         0  2-Jun-2019 20:21 A5 Foto-Drucken
+X      8 -rwxr-xr-x     0      0        74  2-Jun-2019 19:03 _LOCKP~1.DOC
+X   6292 drwxr-xr-x     0      0         0 30-May-2019 19:28 _RASH-~1
+    5305 drwxr-xr-x     0      0         0  2-Jun-2019 20:11 System Volume Information
+       4 drwxr-xr-x     0      0         0  2-Jun-2019 20:44 A4 Dokument-Drucken
+       9 drwxr-xr-x     0      0         0  2-Jun-2019 20:26 A4 Foto-Drucken
+     282 drwxr-xr-x     0      0         0  3-Jun-2019 14:40 weiß noch nicht
+
+FAT: cluster=2(0x2), pos=31808
+Directory /
+       3 drwxr-xr-x     0      0         0  2-Jun-2019 20:25 A3 Foto-Drucken
+       5 drwxr-xr-x     0      0         0  2-Jun-2019 20:21 A5 Foto-Drucken
+X      8 -rwxr-xr-x     0      0        74  2-Jun-2019 19:03 _LOCKP~1.DOC
+X   6292 drwxr-xr-x     0      0         0 30-May-2019 19:28 _RASH-~1
+    5305 drwxr-xr-x     0      0         0  2-Jun-2019 20:11 System Volume Information
+       4 drwxr-xr-x     0      0         0  2-Jun-2019 20:44 A4 Dokument-Drucken
+       9 drwxr-xr-x     0      0         0  2-Jun-2019 20:26 A4 Foto-Drucken
+     282 drwxr-xr-x     0      0         0  3-Jun-2019 14:40 weiß noch nicht
+
+Analyse Disk /dev/sdb - 62 GB / 57 GiB - CHS 59232 64 32
+Geometry from i386 MBR: head=255 sector=63
+BAD_RS LBA=2048 1056
+FAT32 at 1/0/1
+Info: size boot_sector 121305088, partition 121305088
+FAT1 : 64-14911
+FAT2 : 14912-29759
+start_rootdir : 29760 root cluster : 2
+Data : 29760-121305087
+sectors : 121305088
+cluster_size : 64
+no_of_cluster : 1894927 (2 - 1894928)
+fat_length 14848 calculated 14805
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+Current partition structure:
+ 1 P FAT32                    1   0  1 59231  63 32  121305088 [RCH_STICK2]
+
+Warning: Bad starting sector (CHS and LBA don't match)
+No partition is bootable
+
+search_part()
+Disk /dev/sdb - 62 GB / 57 GiB - CHS 59232 64 32
+FAT32 at 1/0/1
+FAT1 : 64-14911
+FAT2 : 14912-29759
+start_rootdir : 29760 root cluster : 2
+Data : 29760-121305087
+sectors : 121305088
+cluster_size : 64
+no_of_cluster : 1894927 (2 - 1894928)
+fat_length 14848 calculated 14805
+
+FAT32 at 1/0/1
+     FAT32 LBA                1   0  1 59231  63 32  121305088 [RCH_STICK2]
+     FAT32, blocksize=32768, 62 GB / 57 GiB
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+
+Results
+   * FAT32 LBA                1   0  1 59231  63 32  121305088 [RCH_STICK2]
+     FAT32, blocksize=32768, 62 GB / 57 GiB
+
+Hint for advanced users. dmsetup may be used if you prefer to avoid to rewrite the partition table for the moment:
+echo "0 121305088 linear /dev/sdb 2048" | dmsetup create test0
+
+interface_write()
+ 1 * FAT32 LBA                1   0  1 59231  63 32  121305088 [RCH_STICK2]
+Don't write, no confirmation
+
+Analyse Disk /dev/sdb - 62 GB / 57 GiB - CHS 59232 64 32
+Geometry from i386 MBR: head=255 sector=63
+BAD_RS LBA=2048 1056
+FAT32 at 1/0/1
+Info: size boot_sector 121305088, partition 121305088
+FAT1 : 64-14911
+FAT2 : 14912-29759
+start_rootdir : 29760 root cluster : 2
+Data : 29760-121305087
+sectors : 121305088
+cluster_size : 64
+no_of_cluster : 1894927 (2 - 1894928)
+fat_length 14848 calculated 14805
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+Current partition structure:
+ 1 P FAT32                    1   0  1 59231  63 32  121305088 [RCH_STICK2]
+
+Warning: Bad starting sector (CHS and LBA don't match)
+No partition is bootable
+
+search_part()
+Disk /dev/sdb - 62 GB / 57 GiB - CHS 59232 64 32
+FAT32 at 1/0/1
+FAT1 : 64-14911
+FAT2 : 14912-29759
+start_rootdir : 29760 root cluster : 2
+Data : 29760-121305087
+sectors : 121305088
+cluster_size : 64
+no_of_cluster : 1894927 (2 - 1894928)
+fat_length 14848 calculated 14805
+
+FAT32 at 1/0/1
+     FAT32 LBA                1   0  1 59231  63 32  121305088 [RCH_STICK2]
+     FAT32, blocksize=32768, 62 GB / 57 GiB
+SIGINT detected! TestDisk has been killed.
